@@ -1,0 +1,10 @@
+.root {
+    height: 300px;
+    width: 200px;
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        box-shadow: 0 0 10px 0 black;
+    }
+}

@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  .grid {
+    width: 49%;
+    height: 49%;
+    > div {
+      height: 100%;
+      width: 100%;
+      display: flex;
+    }
+    :global {
+      .position1 {
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .position2 {
+        justify-content: flex-end;
+        align-items: flex-start;
+      }
+      .position3 {
+        justify-content: flex-start;
+        align-items: flex-end;
+      }
+      .position4 {
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+    }
+  }
+}
